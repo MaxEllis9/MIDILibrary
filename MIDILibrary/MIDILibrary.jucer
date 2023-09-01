@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="zxKLnl" name="MIDILibrary" projectType="audioplug" useAppConfig="0"
               displaySplashScreen="1" jucerFormatVersion="1" companyWebsite="www.stompinaudio.co.uk"
-              pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginCharacteristicsValue="pluginIsMidiEffectPlugin,pluginProducesMidiOut,pluginWantsMidiIn"
               pluginManufacturer="Stompin Audio">
   <MAINGROUP id="CijtPo" name="MIDILibrary">
     <GROUP id="{855A7F75-F70F-A596-073D-A2B4D9DAAA7B}" name="Source">

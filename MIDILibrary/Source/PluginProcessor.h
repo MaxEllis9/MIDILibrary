@@ -56,7 +56,12 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+    Array<File> userMIDIFiles;
+    MidiFile currentMidiFile;
 private:
+    
+    MidiMessageSequence midiFileSequence;
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MIDILibraryAudioProcessor)
 };
